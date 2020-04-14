@@ -36,7 +36,6 @@ routes = ['/api/v1.0/precipitation', '/api/v1.0/stations', '/api/v1.0/tobs', '/a
 @app.route("/")
 def home():
     return (
-        f"Welcome to the Weather API!<br/>"
         f"Available Routes:<br/>"
         f"{routes[0]}<br/>"
         f"{routes[1]}<br/>"
